@@ -1,0 +1,93 @@
+ 
+
+
+                                                             git-interview 
+
+
+1. Basic Git Commands to Get Started
+Before we dive into the interview questions, let’s review some fundamental Git commands you should be familiar with:
+
+git init: Initializes a new Git repository in your current working directory.
+
+git add [file]: Adds a file to the staging area, preparing it for a commit.
+
+git commit: Commits the changes in the staging area to the repository, with a message describing the changes.
+
+git status: Displays the current status of the repository, including any changes that have not been committed.
+
+git log: Displays a history of commits in the repository, including the commit message, author, and timestamp.
+git branch: Displays a list of branches in the repository, including the current branch.
+
+
+git checkout [branch]: Switches to the specified branch.
+git merge [branch]: Merges the specified branch into the current branch.
+
+
+git push: Pushes changes to a remote repository.
+
+git pull: (it is used to download modified files from remote to local) 
+
+
+
+
+
+
+
+
+
+1) What is Git, and why is it used in software development?
+
+Answer: Git is a distributed version control system used to track changes in source code during software development.
+ It allows multiple developers to collaborate on a project efficiently, maintains a history of changes,
+ and provides mechanisms for branching, merging, and resolving conflicts.
+
+
+2)Explain the difference between Git and GitHub.
+
+Answer: Git is the version control system, while GitHub is a web-based platform that provides hosting for Git repositories. 
+GitHub adds collaboration features such as pull requests, issue tracking, and code review.
+
+
+3)What is a Git repository?
+
+Answer: A Git repository is a storage location where a project's version-controlled files and history are stored. 
+It contains all the files and subdirectories along with metadata.
+
+
+4)Explain the difference between Git merge and Git rebase.
+
+Answer: git merge is used to  Merges the specified branch into the current branch.
+Git rebase, on the other hand, moves or combines a sequence of commits to a new base commit.
+ It results in a cleaner and more linear history
+
+
+5) what is merge conflict? How do you resolve a merge conflict in Git?
+
+Answer:  Git conflict occurs when two branches have changes that cannot be automatically merged.
+ To resolve a conflict, you need to manually edit the conflicting files and then commit the changes.
+
+6) what is git pull request?
+A pull request is a proposal to merge a set of changes from one branch into another.
+ In a pull request, collaborators can review and discuss the proposed set of changes before they integrate the changes into the main codebase.
+
+7) what is git branch?
+Answer: Git branches are effectively a pointer to a snapshot of your changes.
+
+8) what is cherryPick?
+ Answer: Cherry picking is the act of picking a commit from a branch and applying it to another.
+
+9)what is git stach?
+The git stash command takes your uncommitted changes (both staged and unstaged), saves them away for later use,
+ and then reverts them from your working copy. 
+
+10)what is git revert?
+Answer:The git revert command is used for undoing changes to a repository's commit history.
+
+11. What is meant by fork in GitHub?
+A. Fork is a rough copy of the repository which allows you to test and debug the changes.
+
+12.Q. What is Git Fetch?
+A. git fetch is the command that tells your local git to retrieve the latest meta-data info from the original.
+
+13.Q. What is .gitignore file ?
+A. if you want to ignore some specific files you can mention where and those files won’t be tracked anymore.

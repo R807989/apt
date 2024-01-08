@@ -1,0 +1,37 @@
+                                                     
+                             
+                                                                      
+                                                                    kubarnates  
+  
+1) why do we need kubarnates? when you have docker already?
+
+Answer: Docker is an image-building,storing  and container creation technoloy.But kubarnates is container orchestration technoloy.
+
+      At point of time  it is very difficult to manage Docker containers spanning over multiple hosts.so we need kubarnates for below things.
+           
+               1) Auto-scaling
+
+               2) Networking
+
+               3) Reliability
+
+               4) self healing
+  
+               5) storage mechanism  
+
+               6) high availbility
+
+2) what is NameSpace in Kubarnates?
+
+Answer: NameSpace is a logical isolation  in Kubarnates.usually we create one  NameSpace for one project.so resources will be isolated to the 
+Namespace level.
+ 
+
+3) What is the Differnce between Pod and Conatiner?
+
+Answer: pod is the  smallest deployable unit in kubarnates. it can have multiple containers, the containers in pod will share same ip address and 
+
+volumes.this feature is useful  when you want keep multiple apps together with the same ip and volumes,side-car containers and proxies ,etc.
+
+
+4) 
